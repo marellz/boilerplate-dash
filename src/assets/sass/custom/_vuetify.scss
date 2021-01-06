@@ -1,0 +1,8 @@
+.v-application{
+    a{
+        color: revert;
+        &.btn{
+            color: white;
+        }
+    }
+}

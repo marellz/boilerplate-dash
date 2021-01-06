@@ -1,0 +1,22 @@
+$dark-jungle-green: #0d160bff;
+$dodger-blue: #2191fbff;
+$light-cyan: #d3f3eeff;
+$persimmon: #e55812ff;
+$magnolia: #f0f0faff;
+
+$theme-colors: (
+    'dark-jungle-green': $dark-jungle-green,
+    'dodger-blue': $dodger-blue,
+    'light-cyan': $light-cyan,
+    'persimmon': $persimmon,
+    'magnolia': $magnolia,
+);
+
+$general-color: $dark-jungle-green;
+
+$sidebar-bg: $dark-jungle-green;
+$sidebar-color: $magnolia;
+
+$footer-bg: $magnolia;
+$footer-color: inherit;
+

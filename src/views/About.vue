@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <dash>
+    <div class="about">
+      <router-view/>
+    </div>
+  </dash>
 </template>
+<script>
+import Dash from "@/components/wrappers/Dash";
+export default {
+  name: "About",
+  components: {
+    Dash,
+  },
+};
+</script>

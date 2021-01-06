@@ -1,0 +1,14 @@
+
+@import 'config/variables';
+@import '~bootstrap/scss/bootstrap';
+
+@import 'modules/base';
+
+@import 'components/footer';
+@import 'components/header';
+@import 'components/sidebar';
+@import 'components/wrapper';
+@import 'components/breadcrumbs';
+
+@import 'custom/vuetify';
+

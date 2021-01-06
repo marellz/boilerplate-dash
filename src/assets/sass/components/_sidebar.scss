@@ -1,0 +1,37 @@
+.sidebar {
+  background: $sidebar-bg;
+  color: $sidebar-color;
+  width: $sidebar-width;
+  display: flex;
+  flex-direction: column;
+
+  flex: 0 0 auto;
+
+  &--logo {
+    // padding: 50px 0;
+  }
+
+  &--nav {
+    .nav-link {
+      color: $white;
+    }
+  }
+
+  .v-list-item{
+      flex: none;
+  }
+}
+
+@media screen and(max-width: 992px) {
+  .sidebar {
+    position: fixed;
+    height: 100%;
+    z-index: 100;
+    transform: translateX(-100%);
+    transition: all .2s ease;
+
+    &.active{
+        transform: translateX(0);
+    }
+  }
+}

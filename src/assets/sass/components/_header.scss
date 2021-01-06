@@ -1,0 +1,15 @@
+.header{
+    box-shadow: 0 0 5px rgba(black,.1);
+    position: relative;
+    z-index: 5;
+    &--navbar{
+        &.navbar{
+            justify-content: flex-start;
+        }
+    }
+
+    &--right{
+        margin-left: auto;
+        display: flex;
+    }
+}
